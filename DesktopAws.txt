@@ -1,0 +1,63 @@
+Hi all this is Achyuth Prasad
+
+I have been working as a Devops engineer from past 6 years, 
+Currently I am working with Maveric Systems at Banglore location as a permanent employee.
+
+coming to roles and responsibilities in the current project, automation is key role in our team.
+
+--->we are using Devops tools i.e, git,jenkins,ansible,docker,Kubernetes and aws cloud as well.
+
+-->we are supporting muliple technologies CI/CD process, i.e, java, node js and python
+
+-->most of the infrastrucuter hosted on aws our job is creating ec2 instances and pre-requisits for instanaces and deploying artifact on specific application
+servers by using automation tools.
+
+-->we have successfully setup jenkins master and slave for build release teams and we have provided some automation scripts them, they will modify and they
+will excute as per their requirement.
+
+-->we have successfully setup docker setup for DEV and TEST environment for developers and testers by using docker build and docker compose.
+for this we have successfuly created weblogic base image to deploy our applications weblogic containers.
+
+-->using ansible for configuration managment tool, to provising infrastrucute on on-premsis servers and excute multiple tasks on multiple nodes
+ansible integrated with jenkins to deploy artifacts on tomcat application servsr.
+
+we are using git to stock of our application code, having good exp on git lab and bitbucket also
+coming to CI tool, mostly familier with jenkins, In jenkins we used so many plugins based on project requiremnt 
+
+My routine tasks are:
+1. Attend stand up calls where we discuss about challenges, ongoing changes and deployment.
+2. Involved in Project meeting to know client's requirement.
+4. Checking the tickets using Jira tool.
+5. Creating automation using shell script, Jenkins, Ansible.
+6. We make sure our infrastructure are up and running.
+7. As per request we have to add resources such as CPU resource, storage, memory resource.
+8. We have to take care of configuration issues, server issues and performance issues.
+9. As we are using Dynatrace as monitoring tool so get alerts for any threshold values.
+Like application is not reachable, server down issue.
+10. We always get new requirement to setup the different environment, install the application,
+K8S cluster setup, K8S deployment, application DB for which Ansible playbook already written.
+11. We have to take the backup such as AMI backup, Volume backup etc.
+
+Release Process:
+------------------
+we are supporting few weeks of release life cycle, 
+2 weeks for SIT
+2 weeks for UAT
+
+post that will promote our chnages into prod environment.
+whenever release was starting, we will get branch request so that we can create release branch in git
+we will configure release branch with jenkins and will trigger jenkins jobs and will generate artifacts.
+we can store the artifacts in nexus repository, post that will deploy in SIT environment
+If SIT environment will approve the artifcts we can deploy in UAT environment.
+If UAT also approve the artifacts we are closely working with Testing Team and we will deploy in PROD by using CRQ.
+If everthing expected will do post release activities, if any bugs found in Prod environment will do the rool back by using previous CRQ
+
+
+AWS:
+--------
+Having exp on aws services.
+EC2 Creation
+snapshots
+EBS
+AMI
+Loadbalancer, autoscaling, VPC,S3 and Roue 53
